@@ -4,6 +4,5 @@ A Python/PostgreSQL script that analyzes the historial data of airlines and calc
 
 In get_delays.py, I pulled the table from the Kaggle dataset and I saved the rows for flights that were not diverted nor cancelled into a pandas dataframe using PostgreSQL. I used 'Psycop2', a Python module called which is used for PostgresSQL, to load the data into the Python file for analysis. 
 
-Using pandas, I created a new dataframe that groups of each unique airline and airports and calculate the ratios of the respective delays, airlines and airports. 
-
+Using pandas, I created a new dataframe that groups each unique airline and airports and calculates the ratio of the delays.
 
